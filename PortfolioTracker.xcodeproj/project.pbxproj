@@ -7,31 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		790627BD27B1A70C0073B08F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790627BC27B1A70C0073B08F /* AppDelegate.swift */; };
-		790627BF27B1A70C0073B08F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790627BE27B1A70C0073B08F /* SceneDelegate.swift */; };
-		790627C127B1A70C0073B08F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790627C027B1A70C0073B08F /* ViewController.swift */; };
-		790627C427B1A70C0073B08F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 790627C227B1A70C0073B08F /* Main.storyboard */; };
-		790627C727B1A70C0073B08F /* PortfolioTrecker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 790627C527B1A70C0073B08F /* PortfolioTrecker.xcdatamodeld */; };
-		790627C927B1A7120073B08F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 790627C827B1A7120073B08F /* Assets.xcassets */; };
-		790627CC27B1A7120073B08F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 790627CA27B1A7120073B08F /* LaunchScreen.storyboard */; };
-		790627D427B1AA0E0073B08F /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790627D327B1AA0E0073B08F /* CoinModel.swift */; };
-		790627D627B1C2610073B08F /* MarketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790627D527B1C2610073B08F /* MarketTableViewCell.swift */; };
-		790627D827B1C4150073B08F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790627D727B1C4150073B08F /* NetworkManager.swift */; };
+		79EAFD0A27B3DBF6008A6062 /* PortfolioTracker in Resources */ = {isa = PBXBuildFile; fileRef = 79EAFD0927B3DBF6008A6062 /* PortfolioTracker */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		790627B927B1A70C0073B08F /* PortfolioTrecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortfolioTrecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		790627BC27B1A70C0073B08F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		790627BE27B1A70C0073B08F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		790627C027B1A70C0073B08F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		790627C327B1A70C0073B08F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		790627C627B1A70C0073B08F /* PortfolioTrecker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioTrecker.xcdatamodel; sourceTree = "<group>"; };
-		790627C827B1A7120073B08F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		790627CB27B1A7120073B08F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		790627CD27B1A7120073B08F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		790627D327B1AA0E0073B08F /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
-		790627D527B1C2610073B08F /* MarketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketTableViewCell.swift; sourceTree = "<group>"; };
-		790627D727B1C4150073B08F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		79EAFD0927B3DBF6008A6062 /* PortfolioTracker */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PortfolioTracker; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +29,7 @@
 		790627B027B1A70C0073B08F = {
 			isa = PBXGroup;
 			children = (
-				790627BB27B1A70C0073B08F /* PortfolioTrecker */,
+				79EAFD0927B3DBF6008A6062 /* PortfolioTracker */,
 				790627BA27B1A70C0073B08F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,24 +40,6 @@
 				790627B927B1A70C0073B08F /* PortfolioTrecker.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		790627BB27B1A70C0073B08F /* PortfolioTrecker */ = {
-			isa = PBXGroup;
-			children = (
-				790627BC27B1A70C0073B08F /* AppDelegate.swift */,
-				790627BE27B1A70C0073B08F /* SceneDelegate.swift */,
-				790627C027B1A70C0073B08F /* ViewController.swift */,
-				790627C227B1A70C0073B08F /* Main.storyboard */,
-				790627C827B1A7120073B08F /* Assets.xcassets */,
-				790627CA27B1A7120073B08F /* LaunchScreen.storyboard */,
-				790627CD27B1A7120073B08F /* Info.plist */,
-				790627C527B1A70C0073B08F /* PortfolioTrecker.xcdatamodeld */,
-				790627D327B1AA0E0073B08F /* CoinModel.swift */,
-				790627D527B1C2610073B08F /* MarketTableViewCell.swift */,
-				790627D727B1C4150073B08F /* NetworkManager.swift */,
-			);
-			path = PortfolioTrecker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,7 +77,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 790627B427B1A70C0073B08F /* Build configuration list for PBXProject "PortfolioTrecker" */;
+			buildConfigurationList = 790627B427B1A70C0073B08F /* Build configuration list for PBXProject "PortfolioTracker" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -137,9 +100,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				790627CC27B1A7120073B08F /* LaunchScreen.storyboard in Resources */,
-				790627C927B1A7120073B08F /* Assets.xcassets in Resources */,
-				790627C427B1A70C0073B08F /* Main.storyboard in Resources */,
+				79EAFD0A27B3DBF6008A6062 /* PortfolioTracker in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,36 +111,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				790627D427B1AA0E0073B08F /* CoinModel.swift in Sources */,
-				790627C127B1A70C0073B08F /* ViewController.swift in Sources */,
-				790627BD27B1A70C0073B08F /* AppDelegate.swift in Sources */,
-				790627D827B1C4150073B08F /* NetworkManager.swift in Sources */,
-				790627BF27B1A70C0073B08F /* SceneDelegate.swift in Sources */,
-				790627C727B1A70C0073B08F /* PortfolioTrecker.xcdatamodeld in Sources */,
-				790627D627B1C2610073B08F /* MarketTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		790627C227B1A70C0073B08F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				790627C327B1A70C0073B08F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		790627CA27B1A7120073B08F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				790627CB27B1A7120073B08F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		790627CE27B1A7120073B08F /* Debug */ = {
@@ -355,7 +290,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		790627B427B1A70C0073B08F /* Build configuration list for PBXProject "PortfolioTrecker" */ = {
+		790627B427B1A70C0073B08F /* Build configuration list for PBXProject "PortfolioTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				790627CE27B1A7120073B08F /* Debug */,
@@ -374,19 +309,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		790627C527B1A70C0073B08F /* PortfolioTrecker.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				790627C627B1A70C0073B08F /* PortfolioTrecker.xcdatamodel */,
-			);
-			currentVersion = 790627C627B1A70C0073B08F /* PortfolioTrecker.xcdatamodel */;
-			path = PortfolioTrecker.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 790627B127B1A70C0073B08F /* Project object */;
 }
